@@ -1,0 +1,7 @@
+CHAT:hello chat1
+CHAT:boop chat1
+DONE:
+CHAT:hello, I want a cup of coffee
+DONE:
+QUIT:
+

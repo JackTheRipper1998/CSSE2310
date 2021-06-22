@@ -1,0 +1,2 @@
+./client:chat1.txt
+./clientbot:./tests/stim.txt
