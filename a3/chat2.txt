@@ -1,7 +1,0 @@
-CHAT:hello chat2
-CHAT:boop chat2
-DONE:
-CHAT:hello again chat2
-CHAT:I'm feeling pretty verbose today
-DONE:
-QUIT:
