@@ -1,0 +1,562 @@
+========================================================================
+		  	   marking statistics for s4492611
+========================================================================
+	   		Per-commit diffstats
+------------------------------------------------------------------------
+r28 | s4492611 | 2021-04-19 17:16:20 +1000 (Mon, 19 Apr 2021) | 1 line
+
+start client and create makefile for client.c
+
+Index: Makefile
+===================================================================
+ Makefile |   10 ++++++++++
+ 1 file changed, 10 insertions(+)
+Index: client.c
+===================================================================
+ client.c |    6 ++++++
+ 1 file changed, 6 insertions(+)
+
+------------------------------------------------------------------------
+r29 | s4492611 | 2021-04-20 01:47:45 +1000 (Tue, 20 Apr 2021) | 1 line
+
+client: arguments checking finished
+
+Index: client.c
+===================================================================
+ client.c |   54 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 54 insertions(+)
+
+------------------------------------------------------------------------
+r30 | s4492611 | 2021-04-20 16:48:04 +1000 (Tue, 20 Apr 2021) | 1 line
+
+client: cmd WHO and NAME_TAKEN done
+
+Index: client.c
+===================================================================
+ client.c |   27 +++++++++++++++++++++------
+ 1 file changed, 21 insertions(+), 6 deletions(-)
+
+------------------------------------------------------------------------
+r31 | s4492611 | 2021-04-21 03:18:50 +1000 (Wed, 21 Apr 2021) | 1 line
+
+client: YT cmd done
+
+Index: client.c
+===================================================================
+ client.c |   37 ++++++++++++++++++++++++++++---------
+ 1 file changed, 28 insertions(+), 9 deletions(-)
+
+------------------------------------------------------------------------
+r32 | s4492611 | 2021-04-21 20:34:13 +1000 (Wed, 21 Apr 2021) | 1 line
+
+client: dynamic reading stdin and file done,YT done
+
+Index: client.c
+===================================================================
+ client.c |   81 ++++++++++++++++++++++++++++++++++++++++++++++-----------------
+ 1 file changed, 60 insertions(+), 21 deletions(-)
+
+------------------------------------------------------------------------
+r33 | s4492611 | 2021-04-21 22:45:01 +1000 (Wed, 21 Apr 2021) | 1 line
+
+client: done everything except some small bug need to fix tomorrow
+
+Index: client.c
+===================================================================
+ client.c |   67 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 62 insertions(+), 5 deletions(-)
+
+------------------------------------------------------------------------
+r34 | s4492611 | 2021-04-23 00:43:17 +1000 (Fri, 23 Apr 2021) | 1 line
+
+client all done, fixed the dynamic reading bug
+
+Index: client.c
+===================================================================
+ client.c |   33 ++++++++++++++++-----------------
+ 1 file changed, 16 insertions(+), 17 deletions(-)
+
+------------------------------------------------------------------------
+r35 | s4492611 | 2021-04-23 15:33:37 +1000 (Fri, 23 Apr 2021) | 1 line
+
+client: LEFT:find bug and fixed
+
+Index: client.c
+===================================================================
+ client.c |    1 +
+ 1 file changed, 1 insertion(+)
+
+------------------------------------------------------------------------
+r36 | s4492611 | 2021-04-25 00:23:22 +1000 (Sun, 25 Apr 2021) | 1 line
+
+client bot collect stimulus and response done
+
+Index: Makefile
+===================================================================
+ Makefile |   17 ++++++++++++-----
+ 1 file changed, 12 insertions(+), 5 deletions(-)
+Index: client.c
+===================================================================
+ client.c |   26 ++++++++++++++++++++++----
+ 1 file changed, 22 insertions(+), 4 deletions(-)
+Index: clientbot
+===================================================================
+Cannot display: file marked as a binary type.
+svn:mime-type = application/x-executable
+Index: clientbot
+===================================================================
+--- clientbot	(revision 35)
++++ clientbot	(revision 36)
+
+Property changes on: clientbot
+___________________________________________________________________
+Added: svn:mime-type
+## -0,0 +1 ##
++application/x-executable
+\ No newline at end of property
+Added: svn:executable
+## -0,0 +1 ##
++*
+\ No newline at end of property
+
+------------------------------------------------------------------------
+r37 | s4492611 | 2021-04-26 14:50:15 +1000 (Mon, 26 Apr 2021) | 1 line
+
+client test all passed
+
+Index: client.c
+===================================================================
+ client.c |  119 +++++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 70 insertions(+), 49 deletions(-)
+Index: clientbot
+===================================================================
+Cannot display: file marked as a binary type.
+svn:mime-type = application/x-executable
+
+------------------------------------------------------------------------
+r38 | s4492611 | 2021-04-27 00:58:26 +1000 (Tue, 27 Apr 2021) | 1 line
+
+client clientbot done
+
+Index: clientbot
+===================================================================
+Cannot display: file marked as a binary type.
+svn:mime-type = application/x-executable
+Index: Makefile
+===================================================================
+ Makefile |   13 ++++++++-----
+ 1 file changed, 8 insertions(+), 5 deletions(-)
+Index: client.c
+===================================================================
+ client.c |  135 +++++++++++++++++++++++++++++----------------------------------
+ 1 file changed, 64 insertions(+), 71 deletions(-)
+
+------------------------------------------------------------------------
+r39 | s4492611 | 2021-04-27 15:06:33 +1000 (Tue, 27 Apr 2021) | 1 line
+
+clientbot reply self banned
+
+Index: clientbot
+===================================================================
+Cannot display: file marked as a binary type.
+svn:mime-type = application/x-executable
+
+------------------------------------------------------------------------
+r40 | s4492611 | 2021-04-27 21:23:47 +1000 (Tue, 27 Apr 2021) | 1 line
+
+server.c added and begin
+
+Index: server.c
+===================================================================
+ server.c |   29 +++++++++++++++++++++++++++++
+ 1 file changed, 29 insertions(+)
+Index: Makefile
+===================================================================
+ Makefile |    5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+------------------------------------------------------------------------
+r41 | s4492611 | 2021-04-29 05:22:06 +1000 (Thu, 29 Apr 2021) | 1 line
+
+server create process done, collect client name have some bugs
+
+Index: client.c
+===================================================================
+ client.c |   89 +++------------------------------------------------------------
+ 1 file changed, 5 insertions(+), 84 deletions(-)
+Index: clientbot
+===================================================================
+Cannot display: file marked as a binary type.
+svn:mime-type = application/x-executable
+Index: server.c
+===================================================================
+ server.c |  197 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 196 insertions(+), 1 deletion(-)
+
+------------------------------------------------------------------------
+r42 | s4492611 | 2021-04-29 17:50:03 +1000 (Thu, 29 Apr 2021) | 1 line
+
+add funtion.c and function.h
+
+Index: function.c
+===================================================================
+ function.c |   98 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 98 insertions(+)
+Index: server.c
+===================================================================
+ server.c |   34 ++++++++++++++++++++++------------
+ 1 file changed, 22 insertions(+), 12 deletions(-)
+Index: function.h
+===================================================================
+ function.h |   13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+------------------------------------------------------------------------
+r43 | s4492611 | 2021-04-29 17:55:52 +1000 (Thu, 29 Apr 2021) | 1 line
+
+re-add clientbot.c
+
+Index: clientbot.c
+===================================================================
+ clientbot.c |  263 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 263 insertions(+)
+
+------------------------------------------------------------------------
+r44 | s4492611 | 2021-04-29 19:37:24 +1000 (Thu, 29 Apr 2021) | 1 line
+
+delete
+
+Index: clientbot (deleted)
+===================================================================
+Index: server.c
+===================================================================
+ server.c |    2 ++
+ 1 file changed, 2 insertions(+)
+Index: client.c
+===================================================================
+ client.c |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+------------------------------------------------------------------------
+r45 | s4492611 | 2021-05-02 21:17:58 +1000 (Sun, 02 May 2021) | 1 line
+
+server done except some fflush bugs
+
+Index: client.c
+===================================================================
+ client.c |   18 ++++++++----------
+ 1 file changed, 8 insertions(+), 10 deletions(-)
+Index: clientbot.c
+===================================================================
+ clientbot.c |   57 ++++++++++++++++++++++++++++-----------------------------
+ 1 file changed, 28 insertions(+), 29 deletions(-)
+Index: server.c
+===================================================================
+ server.c |  229 +++++++++++++++++++++++++++++++++++++++++++++++++--------------
+ 1 file changed, 179 insertions(+), 50 deletions(-)
+
+------------------------------------------------------------------------
+r46 | s4492611 | 2021-05-03 04:59:51 +1000 (Mon, 03 May 2021) | 1 line
+
+fixed cat command
+
+Index: server.c
+===================================================================
+ server.c |   43 ++++++++++++++++++++++++++++++++-----------
+ 1 file changed, 32 insertions(+), 11 deletions(-)
+
+------------------------------------------------------------------------
+r47 | s4492611 | 2021-05-03 05:03:39 +1000 (Mon, 03 May 2021) | 1 line
+
+using signal() function but still have some bugs
+
+Index: server.c
+===================================================================
+ server.c |    4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+------------------------------------------------------------------------
+r48 | s4492611 | 2021-05-03 16:43:47 +1000 (Mon, 03 May 2021) | 1 line
+
+funtions all done, comments left and a problem that demo and test result mismatch
+
+Index: server.c
+===================================================================
+ server.c |   41 +++++++++++++++++++++++++++--------------
+ 1 file changed, 27 insertions(+), 14 deletions(-)
+
+------------------------------------------------------------------------
+r49 | s4492611 | 2021-05-04 00:20:46 +1000 (Tue, 04 May 2021) | 1 line
+
+funtion all done, tests all passed, comments left
+
+Index: server.c
+===================================================================
+ server.c |   32 ++++++++++++++++++++++----------
+ 1 file changed, 22 insertions(+), 10 deletions(-)
+
+------------------------------------------------------------------------
+r50 | s4492611 | 2021-05-05 05:19:58 +1000 (Wed, 05 May 2021) | 1 line
+
+add comments on client.c clientbot.c and function.c, found MSG command have not handle in server
+
+Index: function.c
+===================================================================
+ function.c |   72 ++++++++++++++++++++++++++++++++++++++++++++++++++++++-------
+ 1 file changed, 64 insertions(+), 8 deletions(-)
+Index: server.c
+===================================================================
+ server.c |   53 ++++++++++++++++-------------------------------------
+ 1 file changed, 16 insertions(+), 37 deletions(-)
+Index: client.c
+===================================================================
+ client.c |   82 ++++++++++++++++++++++++++++++++++++++++-----------------------
+ 1 file changed, 53 insertions(+), 29 deletions(-)
+Index: clientbot.c
+===================================================================
+ clientbot.c |  156 +++++++++++++++++++++++++++++++++++++++++++++++++++++-------
+ 1 file changed, 140 insertions(+), 16 deletions(-)
+
+------------------------------------------------------------------------
+r51 | s4492611 | 2021-05-06 03:52:15 +1000 (Thu, 06 May 2021) | 1 line
+
+fixed clientbot free list
+
+Index: clientbot.c
+===================================================================
+ clientbot.c |   39 ++++++++++++++++++++++++++++-----------
+ 1 file changed, 28 insertions(+), 11 deletions(-)
+Index: server.c
+===================================================================
+ server.c |   23 +++++++++++++++++------
+ 1 file changed, 17 insertions(+), 6 deletions(-)
+
+------------------------------------------------------------------------
+r52 | s4492611 | 2021-05-06 16:34:34 +1000 (Thu, 06 May 2021) | 1 line
+
+find memory bugs, this commit is for sure idont make a mess, this copy is all correct on functional
+
+Index: client.c
+===================================================================
+ client.c |    1 +
+ 1 file changed, 1 insertion(+)
+Index: clientbot.c
+===================================================================
+ clientbot.c |   40 +++++++++++++++++++++++++++-------------
+ 1 file changed, 27 insertions(+), 13 deletions(-)
+Index: server.c
+===================================================================
+ server.c |  194 +++++++++++++++++++++++++++++++++++++++++++++++++++++----------
+ 1 file changed, 165 insertions(+), 29 deletions(-)
+
+------------------------------------------------------------------------
+r53 | s4492611 | 2021-05-06 20:35:28 +1000 (Thu, 06 May 2021) | 1 line
+
+all bugs fixed, server comment half left
+
+Index: clientbot.c
+===================================================================
+ clientbot.c |   20 +++++++++++---------
+ 1 file changed, 11 insertions(+), 9 deletions(-)
+Index: server.c
+===================================================================
+ server.c |   13 +++++--------
+ 1 file changed, 5 insertions(+), 8 deletions(-)
+
+------------------------------------------------------------------------
+r54 | s4492611 | 2021-05-06 23:12:33 +1000 (Thu, 06 May 2021) | 1 line
+
+comments finish
+
+Index: clientbot.c
+===================================================================
+ clientbot.c |    9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+Index: server.c
+===================================================================
+ server.c |  140 +++++++++++++++++++++++++++++----------------------------------
+ 1 file changed, 65 insertions(+), 75 deletions(-)
+
+------------------------------------------------------------------------
+r55 | s4492611 | 2021-05-06 23:53:53 +1000 (Thu, 06 May 2021) | 1 line
+
+a copy before break function into small functions
+
+Index: clientbot.c
+===================================================================
+ clientbot.c |   24 ++++++++++++------------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+------------------------------------------------------------------------
+r56 | s4492611 | 2021-05-07 00:45:28 +1000 (Fri, 07 May 2021) | 1 line
+
+all done
+
+Index: server.c
+===================================================================
+ server.c |  109 ++++++++++++++++++++++++++++++++++++---------------------------
+ 1 file changed, 64 insertions(+), 45 deletions(-)
+
+------------------------------------------------------------------------
+r57 | s4492611 | 2021-05-07 13:11:32 +1000 (Fri, 07 May 2021) | 1 line
+
+fix all style errors
+
+Index: client.c
+===================================================================
+ client.c |   54 +++++++++++++++++++++++++++---------------------------
+ 1 file changed, 27 insertions(+), 27 deletions(-)
+Index: clientbot.c
+===================================================================
+ clientbot.c |  126 ++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 63 insertions(+), 63 deletions(-)
+Index: function.c
+===================================================================
+ function.c |   56 ++++++++++++++++++++++++++++----------------------------
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Index: server.c
+===================================================================
+ server.c |  138 +++++++++++++++++++++++++++++++--------------------------------
+ 1 file changed, 69 insertions(+), 69 deletions(-)
+
+------------------------------------------------------------------------
+r58 | s4492611 | 2021-05-07 13:25:03 +1000 (Fri, 07 May 2021) | 1 line
+
+changed some comment style, all done
+
+Index: function.c
+===================================================================
+ function.c |    6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+Index: server.c
+===================================================================
+ server.c |   38 ++++++++++++++------------------------
+ 1 file changed, 14 insertions(+), 24 deletions(-)
+Index: client.c
+===================================================================
+ client.c |    3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+Index: clientbot.c
+===================================================================
+ clientbot.c |   19 +++++++------------
+ 1 file changed, 7 insertions(+), 12 deletions(-)
+
+------------------------------------------------------------------------
+r59 | s4492611 | 2021-05-07 13:44:08 +1000 (Fri, 07 May 2021) | 1 line
+
+All Done
+
+Index: client.c
+===================================================================
+ client.c |   15 +++++++--------
+ 1 file changed, 7 insertions(+), 8 deletions(-)
+
+------------------------------------------------------------------------
+========================================================================
+			Chronological Commit Messages
+----Revision [28] (2021-04-19)----
+start client and create makefile for client.c
+----Revision [29] (2021-04-19)----
+client: arguments checking finished
+----Revision [30] (2021-04-20)----
+client: cmd WHO and NAME_TAKEN done
+----Revision [31] (2021-04-20)----
+client: YT cmd done
+----Revision [32] (2021-04-21)----
+client: dynamic reading stdin and file done,YT done
+----Revision [33] (2021-04-21)----
+client: done everything except some small bug need to fix tomorrow
+----Revision [34] (2021-04-22)----
+client all done, fixed the dynamic reading bug
+----Revision [35] (2021-04-23)----
+client: LEFT:find bug and fixed
+----Revision [36] (2021-04-24)----
+client bot collect stimulus and response done
+----Revision [37] (2021-04-26)----
+client test all passed
+----Revision [38] (2021-04-26)----
+client clientbot done
+----Revision [39] (2021-04-27)----
+clientbot reply self banned
+----Revision [40] (2021-04-27)----
+server.c added and begin
+----Revision [41] (2021-04-28)----
+server create process done, collect client name have some bugs
+----Revision [42] (2021-04-29)----
+add funtion.c and function.h
+----Revision [43] (2021-04-29)----
+re-add clientbot.c
+----Revision [44] (2021-04-29)----
+delete
+----Revision [45] (2021-05-02)----
+server done except some fflush bugs
+----Revision [46] (2021-05-02)----
+fixed cat command
+----Revision [47] (2021-05-02)----
+using signal() function but still have some bugs
+----Revision [48] (2021-05-03)----
+funtions all done, comments left and a problem that demo and test result mismatch
+----Revision [49] (2021-05-03)----
+funtion all done, tests all passed, comments left
+----Revision [50] (2021-05-04)----
+add comments on client.c clientbot.c and function.c, found MSG command have not handle in server
+----Revision [51] (2021-05-05)----
+fixed clientbot free list
+----Revision [52] (2021-05-06)----
+find memory bugs, this commit is for sure idont make a mess, this copy is all correct on functional
+----Revision [53] (2021-05-06)----
+all bugs fixed, server comment half left
+----Revision [54] (2021-05-06)----
+comments finish
+----Revision [55] (2021-05-06)----
+a copy before break function into small functions
+----Revision [56] (2021-05-06)----
+all done
+----Revision [57] (2021-05-07)----
+fix all style errors
+----Revision [58] (2021-05-07)----
+changed some comment style, all done
+----Revision [59] (2021-05-07)----
+All Done
+========================================================================
+			Commit Frequency Per Day
+2021-04-01 | 
+2021-04-02 | 
+2021-04-03 | 
+2021-04-04 | 
+2021-04-05 | 
+2021-04-06 | 
+2021-04-07 | 
+2021-04-08 | 
+2021-04-09 | 
+2021-04-10 | 
+2021-04-11 | 
+2021-04-12 | 
+2021-04-13 | 
+2021-04-14 | 
+2021-04-15 | 
+2021-04-16 | 
+2021-04-17 | 
+2021-04-18 | 
+2021-04-19 | **
+2021-04-20 | **
+2021-04-21 | **
+2021-04-22 | *
+2021-04-23 | *
+2021-04-24 | *
+2021-04-25 | 
+2021-04-26 | **
+2021-04-27 | **
+2021-04-28 | *
+2021-04-29 | ***
+2021-04-30 | 
+2021-05-01 | 
+2021-05-02 | ***
+2021-05-03 | **
+2021-05-04 | *
+2021-05-05 | *
+2021-05-06 | *****
+2021-05-07 | ***
+========================================================================
+				END OF DATA
+========================================================================
